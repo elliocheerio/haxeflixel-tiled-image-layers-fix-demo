@@ -93,17 +93,5 @@ class TiledLevel extends TiledMap
 				tileSet.tileWidth, tileSet.tileHeight, OFF, tileSet.firstGID, 1, 1);
 			
 			backgroundLayer.add(tilemap);
-
-			if (collidableTileLayers == null)
-				collidableTileLayers = new Array<FlxTilemap>();
-				
-			collidableTileLayers.push(tilemap);
-	}
-
-	public function loadLayerImages(layer:TiledLayer)
-	{
-		var image:TiledImageLayer = cast layer;
-		var sprite = new FlxSprite(image.x, image.y, c_PATH_LEVEL_TILESHEETS + image.imagePath);
-		imagesLayer.add(sprite);
 	}
 }
