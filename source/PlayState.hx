@@ -22,8 +22,8 @@ class PlayState extends FlxState
 		var level = new TiledLevel("assets/level.tmx", this);
 
 		player = new FlxSprite("assets/player.png");
-		player.x = 80;
-		player.y = 80;
+		player.x = 128;
+		player.y = 192;
 
 		add(level.backgroundLayer);
 

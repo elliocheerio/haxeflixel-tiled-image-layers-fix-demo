@@ -4,11 +4,10 @@ This is a demo for Fixing Tiled Image Layers Offsets in Tiled.
 
 ### Use Case
 
-Image layer offsets in Tiled used to be defined by properties `x` and `y`.  
-As of Tiled version 0.15 image layer offsets are now defined by properties `offsetx` and `offsety`.
+Image layer offsets in Tiled used to be defined by properties `x` and `y`. As of Tiled version 0.15 image layer offsets are now defined by properties `offsetx` and `offsety`. These properties are already available in `TiledLayer`.
 
 ![Tiled Editor Demo](assets/html_images/image_fix_tmx.png)  
-*TMX source file. Offsets are now defined by properties `offsetx` and `offsety`*
+*TMX source file. Offsets are defined by properties `offsetx` and `offsety`*
 
 
 ![Tiled Editor Demo](assets/html_images/image_fix_one.png)  
