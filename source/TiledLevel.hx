@@ -98,6 +98,7 @@ class TiledLevel extends TiledMap
 	public function loadLayerImages(layer:TiledLayer)
 	{
 		var image:TiledImageLayer = cast layer;
+		trace('image origin: ' + image.offsetX + ', ' + image.offsetY);
 		var sprite = new FlxSprite(image.offsetX, image.offsetY, c_PATH_LEVEL_TILESHEETS + image.imagePath);
 		imagesLayer.add(sprite);
 	}
